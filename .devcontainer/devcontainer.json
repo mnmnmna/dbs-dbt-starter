@@ -1,0 +1,23 @@
+{
+  "name": "dbt Core & ClickHouse",
+  "image": "mcr.microsoft.com/devcontainers/python:1-3.12-bookworm",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "innoverio.vscode-dbt-power-user",
+        "samuelcolvin.jinjahtml",
+        "redhat.vscode-yaml",
+        "ms-python.python"
+      ],
+      "settings": {
+        "files.associations": {
+          "*.sql": "jinja-sql"
+        },
+        "[yaml]": {
+          "editor.tabSize": 2,
+          "editor.insertSpaces": true
+        }
+      }
+    }
+  }
+}
